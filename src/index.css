@@ -216,6 +216,7 @@ code {
     padding: 60px 60px;
     border-radius: 20px;
     display: flex;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -250,4 +251,19 @@ code {
     width: 10px;
 
     height: 10px;
+}
+
+.mainModal2{
+  position: absolute;
+  margin: 10px 40px;
+  background-color: rgba(230, 224, 224, 0.905);
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 60px 30px;
+  justify-content: center;
+  align-items: center;
+  top:25%
 }

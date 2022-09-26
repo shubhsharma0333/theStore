@@ -5,7 +5,7 @@ import product_lists from "../utils/product_lists.json"
 const Favorites = () => {
   const {fav} = useCart();
   const matchId = (product_lists, fav) => product_lists
-  .filter(item => fav.includes(item.productId))
+  .filter(item => fav?.includes(item.productId))
   .map(item => item);
   
   

@@ -65,7 +65,7 @@ const Cart = () => {
         <button className='checkout' onClick={handleCheckout}>Checkout</button>
       </div>}
       {showCheckout && 
-            <div className='mainModal'>
+            <div className='mainModal2'>
                 <div className='modal2'>
                 <button className='close' onClick={closeForm}><IoIosCloseCircleOutline  size ="2em"/></button>
                     <input onChange={handleForm} className="inputform" placeholder='Phone' value={formValues.phone} name="phone" />

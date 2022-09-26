@@ -28,16 +28,14 @@ const Home = () => {
         setShowModal(true);
         setQty(1)
         let info = product_lists.find(item => item.productId === e.currentTarget.id)
-        setModalDetails(info)
-        setModalDetails((prev)=>({
-            ...prev, quantity:qty
-        }))
+        setModalDetails({...info, quantity:qty})
+        
         
     }
     const handleQty = (e) =>{
         setQty(e.target.value)
         setModalDetails((prev)=>({
-            ...prev, quantity:qty
+            ...prev, quantity:e.target.value
         }))
         
     }
