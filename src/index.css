@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navBar{
+  width: 100%;
+  height: 17%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #808080;
+}
+
+.nav{
+  border: none;
+  background-color: inherit;
+  color: aliceblue;
+}
+
+.nav:hover{
+  cursor: pointer;
+}
+
+.lastNav{
+  margin-left: 300px;
+  margin-right: 40px;
+}
+
+.hNav{
+  margin-left: 40px;
+  color: aliceblue;
+}
+
+.mainContainer{
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+  padding-top: 30px;
+}
+
+.iContainer{
+  width: 350px;
+  padding: 0 10px 0 10px;
+  display: flex;
+  margin: 10px 14px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.iContainer:hover{
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.iImage{
+  width: 270px;
+  margin-top: 20px;
+  height: 170px;
+  border-radius: 20px;
+}
+.iName{
+  width: 350px;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: left;
+  margin: 10px 8px;
+}
+.iPrice{
+  width: 350px;
+  font-weight: 200;
+  font-size: 14px;
+  margin-top: 0px;
+  text-align: left;
+  color: #505050;
+}
+.mainModal{
+  position: absolute;
+  margin: 10px 40px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 60px 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal{
+  background-color: #F0F0F0 ;
+    position: relative;
+    padding: 60px 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.mInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 60px;
+}
+.mImage{
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+.mInput{
+  border: #808080;
+  border-radius: 40px;
+  height: 30px;
+  padding: 4px;
+  width: 50px;
+  margin: 4px;
+}
+
+.mButton{
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  color: #f8f8f8;
+  border-radius: 50px;
+  background-color: #fd5c63;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mButton:hover{
+  cursor: pointer;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  margin: 20px;
+  color: #fd5c63;  
+}
+
+.close:hover{
+  cursor: pointer;
+}
+
+.cartContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.cContainer{
+  margin: 40px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cImage{
+  width: 100px;
+  height: 100px;
+}
+
+.checkout{
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  color: #f8f8f8;
+  border-radius: 50px;
+  background-color: #fd5c63;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal2{
+  background-color: #F0F0F0;
+    position: relative;
+    padding: 60px 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputform{
+  border: #808080;
+  border-radius: 40px;
+  height: 30px;
+  padding: 10px;
+  width: 200px;
+  margin: 4px;
+}
+
+.submit{
+  background-color: #fd5c63;
+  border: none;
+  border-radius: 20px;
+  width: 120px;
+  height: 38px;
+  margin-top: 20px;
+  color: #F0F0F0;
+}
+.fav{
+  position: relative;
+    top: 0;
+    right: -40%;
+    border: none;
+    background: inherit;
+    margin: 20px;
+    color: #fd5c63;
+    width: 10px;
+
+    height: 10px;
+}
